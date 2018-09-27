@@ -1,0 +1,161 @@
+@import "bootstrap/functions";
+@import "bootstrap/variables";
+.navbar-custom {
+    background-color: #1d2124!important;
+}
+.navbar-nav{
+    
+    padding-left:0px;
+  padding-right:0px;
+    margin-right: 180px;
+    font-size: 15.5px;
+    font-family:monospace;
+}
+
+@import "bootstrap";
+
+.logoimg{
+    height:30px;
+    
+    
+}
+
+header{
+  background: linear-gradient(rgba(0, 0, 0, 0.4),rgba(0, 0, 0, 0.4)),url(images/background1.jpg);
+  background-position: center;
+  background-size: cover;
+  height:120vh;
+  margin-bottom: 30 px;
+  padding-top: 150px;
+  color: floralwhite;
+
+}
+.logoimg1{
+    height:60px;
+    
+    
+}
+
+
+
+/*---------------------- */
+/* Fonts */
+/*---------------------- */
+@font-face {
+    font-family:extralight;
+     src : url(fonts/raleway-extralight.ttf);
+}
+/*---------------------- */
+/* HEADINGS */
+/*---------------------- */
+h1.display-4{
+    margin-top:30px; 
+    margin-left: 13px;
+    color:white;
+    font-size: 220%;
+    word-spacing: 3px;
+     letter-spacing: 1px;
+}
+h1:after{
+    display: block;
+    height: 1.5px;
+    background-color:white;
+    content: " ";
+    width: 60px;
+    margin-top: 30px;
+    margin-bottom:0;
+   
+    
+    
+    
+}
+/* pargarphs */
+#home-section.home-inner p{
+    padding-top: 30px;
+    margin-left: 13px;
+    word-spacing: 3px;
+    letter-spacing: 1px;
+    opacity: 0.6;
+   /* font-family:extralight; */
+}
+
+ .card{
+    height:auto;
+     width: 100%;
+  
+   color: black;
+  font-family: 'extrabold';
+     font-size: 25px;
+} 
+
+ .navbar-nav{
+	font-family: 'Open sans';
+	font-size: 14px;
+	font-weight: 600;
+	opacity: 0.69;
+}
+.nav.li.a{
+	padding-left: 20px;
+    padding-right: 20px;
+}
+
+   #home-section form.form-title a{
+    color:darkorange;
+} 
+#home-section form.form-title p{
+    
+    color:black;
+	text-align: center;
+	border-radius: 2.5px;  
+    font-family: 'heavy';
+    margin-top:  10px;
+    background-color: darkgray;
+}
+
+
+
+
+/* social */
+section#social{
+    
+	background-color: white;
+	margin-left: 10px;
+	padding: 15px;
+	
+}
+section#social p{
+    font-family: 'regular';
+    font-size: 18px;
+    opacity: 0.7;
+    
+}
+
+section#social ul{
+	display:block;
+     list-style: none;
+     padding: 10px 0px;
+}
+section#social ul li{
+	float: left;
+	margin: 19.5px;
+     list-style: none;
+}
+section#social ul li:last-child{
+	margin-right: 0;
+}
+
+section#social i{
+  font-size: 45px;
+}
+section#social a{
+	color: darkgray;
+}
+
+/*tabs */
+
+.tab-image{
+    float: right;
+    margin-right: -550px;
+    padding-top: -470px;
+    margin-bottom: 30px;
+}
